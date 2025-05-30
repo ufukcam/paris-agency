@@ -1,0 +1,37 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "tours": "Tours",
+    "contact": "Contact"
+  },
+  "home": {
+    "hero": {
+      "title": "Discover the World with Us",
+      "subtitle": "Your trusted travel partner for unforgettable experiences",
+      "cta": "Explore Tours"
+    },
+    "featured": {
+      "title": "Featured Tours",
+      "subtitle": "Our most popular destinations"
+    }
+  },
+  "about": {
+    "title": "About Us",
+    "description": "We are a leading travel agency dedicated to providing exceptional travel experiences. With years of experience and a passion for exploration, we create memorable journeys for our clients."
+  },
+  "tours": {
+    "title": "Our Tours",
+    "description": "Explore our carefully curated selection of tours and packages"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "description": "Get in touch with us for any questions or inquiries",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Send Message"
+    }
+  }
+} 

@@ -1,0 +1,37 @@
+{
+  "nav": {
+    "home": "Ana Sayfa",
+    "about": "Hakkımızda",
+    "tours": "Turlar",
+    "contact": "İletişim"
+  },
+  "home": {
+    "hero": {
+      "title": "Dünyayı Bizimle Keşfedin",
+      "subtitle": "Unutulmaz deneyimler için güvenilir seyahat ortağınız",
+      "cta": "Turları Keşfet"
+    },
+    "featured": {
+      "title": "Öne Çıkan Turlar",
+      "subtitle": "En popüler destinasyonlarımız"
+    }
+  },
+  "about": {
+    "title": "Hakkımızda",
+    "description": "Olağanüstü seyahat deneyimleri sunmaya adanmış önde gelen bir seyahat acentasıyız. Yılların deneyimi ve keşfetme tutkusuyla, müşterilerimiz için unutulmaz yolculuklar yaratıyoruz."
+  },
+  "tours": {
+    "title": "Turlarımız",
+    "description": "Özenle seçilmiş tur ve paket seçeneklerimizi keşfedin"
+  },
+  "contact": {
+    "title": "İletişim",
+    "description": "Sorularınız veya talepleriniz için bizimle iletişime geçin",
+    "form": {
+      "name": "İsim",
+      "email": "E-posta",
+      "message": "Mesaj",
+      "submit": "Mesaj Gönder"
+    }
+  }
+} 
