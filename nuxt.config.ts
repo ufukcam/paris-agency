@@ -34,5 +34,10 @@ export default defineNuxtConfig({
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
       ]
     }
+  },
+  runtimeConfig: {
+    public: {
+      OPENWEATHER_API_KEY: process.env.OPENWEATHER_API_KEY
+    }
   }
 })

@@ -19,7 +19,7 @@
           <p class="text-xl md:text-2xl text-gray-200 mb-10 leading-relaxed">
             {{ $t('home.hero.subtitle') }}
           </p>
-          <div class="flex gap-4">
+          <div class="flex flex-col sm:flex-row gap-4">
             <NuxtLink
               to="localePath('/tours')"
               class="inline-flex items-center px-8 py-4 bg-[#b8a77a] text-white rounded-lg hover:bg-[#a6956a] transition-all duration-300 transform hover:scale-105"
@@ -29,6 +29,7 @@
                 <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
               </svg>
             </NuxtLink>
+            <WeatherWidget class="mt-4 sm:mt-0" />
           </div>
         </div>
       </div>
