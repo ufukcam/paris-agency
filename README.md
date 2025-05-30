@@ -1,75 +1,86 @@
-# Nuxt Minimal Starter
+# Paris Agency - Nuxt 3 Tourism Website
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Modern ve kullanıcı dostu bir turizm web sitesi. Nuxt 3, Vue 3 ve Tailwind CSS kullanılarak geliştirilmiştir.
 
-## Setup
+## Özellikler
 
-Make sure to install dependencies:
+- 🎨 Modern ve responsive tasarım
+- 🌍 Çoklu dil desteği
+- 📱 Mobil uyumlu arayüz
+- 🎯 SEO optimizasyonu
+- ⚡ Hızlı sayfa yüklemeleri
+- 🔒 Güvenli rezervasyon sistemi
+
+## Teknolojiler
+
+- **Nuxt 3** - Vue.js framework
+- **Vue 3** - Composition API
+- **Tailwind CSS** - Utility-first CSS framework
+- **TypeScript** - Tip güvenliği
+- **i18n** - Çoklu dil desteği
+
+## Proje Yapısı
+
+```
+├── components/     # Yeniden kullanılabilir bileşenler
+├── pages/         # Sayfa bileşenleri
+├── composables/   # API ve veri yönetimi
+├── assets/        # Statik dosyalar
+├── server/        # API endpoint'leri
+└── public/        # Genel dosyalar
+```
+
+## Kurulum
+
+Projeyi yerel ortamınızda çalıştırmak için:
 
 ```bash
-# npm
+# Bağımlılıkları yükleyin
 npm install
 
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
+# Geliştirme sunucusunu başlatın
 npm run dev
 
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
+# Üretim için derleyin
 npm run build
 
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
+# Üretim sürümünü önizleyin
+npm run preview
 ```
 
-Locally preview production build:
+## Geliştirme
+
+1. Projeyi klonlayın
+2. Bağımlılıkları yükleyin: `npm install`
+3. Geliştirme sunucusunu başlatın: `npm run dev`
+4. Tarayıcınızda [http://localhost:3000](http://localhost:3000) adresini açın
+
+## Dağıtım
+
+Projeyi dağıtmak için:
 
 ```bash
-# npm
+# Üretim için derleyin
+npm run build
+
+# Üretim sürümünü önizleyin
 npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Katkıda Bulunma
+
+1. Bu depoyu fork edin
+2. Yeni bir branch oluşturun (`git checkout -b feature/amazing-feature`)
+3. Değişikliklerinizi commit edin (`git commit -m 'Add some amazing feature'`)
+4. Branch'inizi push edin (`git push origin feature/amazing-feature`)
+5. Bir Pull Request oluşturun
+
+## Lisans
+
+Bu proje MIT lisansı altında lisanslanmıştır. Daha fazla bilgi için `LICENSE` dosyasına bakın.
+
+## İletişim
+
+Proje Sahibi - [@ufukcam](https://twitter.com/ufukcam)
+
+Proje Linki: [https://github.com/yourusername/paris-agency](https://github.com/yourusername/paris-agency)
