@@ -21,7 +21,7 @@
           </p>
           <div class="flex flex-col sm:flex-row gap-4">
             <NuxtLink
-              to="localePath('/tours')"
+              
               class="inline-flex items-center px-8 py-4 bg-[#b8a77a] text-white rounded-lg hover:bg-[#a6956a] transition-all duration-300 transform hover:scale-105"
             >
               {{ $t('home.hero.cta') }}
@@ -58,7 +58,6 @@
               <h3 class="text-2xl font-semibold text-gray-900 mb-3">{{ tour.title }}</h3>
               <p class="text-gray-600 mb-6">{{ tour.description }}</p>
               <NuxtLink
-                to="localePath(`/tours/${tour.id}`)"
                 class="inline-flex items-center justify-center w-full bg-[#b8a77a] text-white px-6 py-3 rounded-lg hover:bg-[#a6956a] transition-colors"
               >
                 {{ $t('home.hero.cta') }}
@@ -141,7 +140,6 @@
 <script setup lang="ts">
 import { useI18n } from '#imports'
 
-const { t, localePath } = useI18n()
 
 const featuredTours = [
   {
