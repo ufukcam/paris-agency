@@ -52,6 +52,10 @@
             </svg>
           </button>
         </div>
+
+        <div class="flex items-center gap-4">
+          <LanguageSelect />
+        </div>
       </div>
     </div>
 

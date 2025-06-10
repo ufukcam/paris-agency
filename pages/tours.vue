@@ -45,7 +45,7 @@
             <div class="mt-4 flex justify-between items-center">
               <span class="text-2xl font-bold text-[#b8a77a]">{{ tour.price }}</span>
               <NuxtLink
-                to="localePath(`/tours/${tour.id}`)"
+                to="first-tour"
                 class="inline-block bg-[#b8a77a] text-white px-4 py-2 rounded-md hover:bg-[#a6956a]"
               >
                 {{ $t('home.hero.cta') }}
