@@ -38,10 +38,10 @@
               <NuxtLink to="/about" class="hover:text-white transition-colors">Hakkımızda</NuxtLink>
             </li>
             <li>
-              <NuxtLink to="/services" class="hover:text-white transition-colors">Hizmetler</NuxtLink>
+              <NuxtLink class="hover:text-white transition-colors">Hizmetler</NuxtLink>
             </li>
             <li>
-              <NuxtLink to="/projects" class="hover:text-white transition-colors">Projeler</NuxtLink>
+              <NuxtLink  class="hover:text-white transition-colors">Projeler</NuxtLink>
             </li>
             <li>
               <NuxtLink to="/contact" class="hover:text-white transition-colors">İletişim</NuxtLink>
